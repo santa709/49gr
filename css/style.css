@@ -1,17 +1,191 @@
+
+body{
+    width: 100%;
+	margin: 0 auto;
+	padding: 0.1%;
+	background: rgb(246, 246, 246);
+	background: -moz-linear-gradient(90deg, rgb(246, 246, 246) 12%, rgb(233, 233, 235) 92%);
+	background: -webkit-linear-gradient(90deg, rgb(246, 246, 246) 12%, rgb(233, 233, 235) 92%);
+	background: -o-linear-gradient(90deg, rgb(246, 246, 246) 12%, rgb(233, 233, 235) 92%);
+	background: -ms-linear-gradient(90deg, rgb(246, 246, 246) 12%, rgb(233, 233, 235) 92%);
+	background: linear-gradient(180deg, rgb(246, 246, 246) 12%, rgb(233, 233, 235) 92%);
+
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+ }
+
+
+/*Заголовок, меню, картинка - Евтушенко*/
+
+h1.brand {
+	text-align: center;
+	margin: 0 auto 5px;
+}
+
+h1.brand img {
+	width: 25%;
+}
+
+/*Меню*/
+
+.navbar {
+    margin-bottom: 0;
+    color: #ffffff;
+    background: #3C3D41;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+	font-size: 20px;
+    height: 60px;
+    padding: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+ {
+    color: #F5F5F5;
+    background: #FF7441;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color: #F94543;
+}
+
+/*конец Меню*/
+
+
+.Wrap {
+	padding: 0;
+	width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+
+/*Заголовок*/
+
+.color {
+    width: 100%;
+    height: 97px;
+/*    background: #F84443;*/
+    text-align: center;
+    margin-bottom: 1px;
+
+background: rgb(251, 149, 149);
+background: -moz-linear-gradient(90deg, rgb(251, 149, 149) 9%, rgb(225, 57, 70) 84%);
+background: -webkit-linear-gradient(90deg, rgb(251, 149, 149) 9%, rgb(225, 57, 70) 84%);
+background: -o-linear-gradient(90deg, rgb(251, 149, 149) 9%, rgb(225, 57, 70) 84%);
+background: -ms-linear-gradient(90deg, rgb(251, 149, 149) 9%, rgb(225, 57, 70) 84%);
+background: linear-gradient(180deg, rgb(251, 149, 149) 9%, rgb(225, 57, 70) 84%);
+}
+
+h2#gradient {
+    position: absolute;
+	width: 99%;
+    text-align: center;
+    margin: 15px auto;
+    padding: 0 5px;
+    z-index: 99999;
+    top: -5px;
+
+}
+
+h2#gradient span {
+    position:relative;
+    display: inline-block;
+    color: #EA4E27; /* Fallback Color */
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: helvetica;
+    text-align:center;
+    font-size: 70px;
+    letter-spacing: -4px;
+    text-shadow: 4px 4px 0px #441369, 8px 8px 0px rgba(255,255,255,0.1);  /* Fallback Shadow */
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    h2#gradient span{
+      background: -webkit-gradient(linear,left top,left bottom,from(#EA4E27),to(#802F7B));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow:none !important;
+    }
+    h2#gradient span:after {
+        content: attr(data-text);
+        left: 8px;
+        position: absolute;
+        background: url(http://i.imgur.com/RkDRMcJ.png); /* image source for your texture */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: -4px -4px 0px #441369, -1px 0px 0px rgba(255, 255, 255, 0.1);
+        top: 8px;
+        z-index: -1;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1092px) {
+
+    h2#gradient span {
+        font-size: 65px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .color {
+        height: 75px;
+    }
+
+    h2#gradient span {
+        font-size: 45px;
+    }
+
+}    
+
+@media (max-width: 500px) {
+
+    .color {
+        height: 97px;
+    }
+
+	h2#gradient span {
+    	font-size: 35px;
+        text-shadow: 2px 2px 0px #441369, 5px 5px 0px rgba(255,255,255,0.1);  /* Fallback Shadow */
+}
+
+    h2#gradient span:after {
+        left: 6px;
+        text-shadow: -4px -4px 0px #441369, -1px 0px 0px rgba(255, 255, 255, 0.1);
+        top: 6px;
+    }
+
+}
+
+/*Картинка*/
+
+.html48 img  {
+	width: 100%;
+}
+
+div.html48  {
+/*display: inline-block;
+position: relative;*/
+	text-align: center;
+	margin: 0 auto;
+    /*top: -75px;*/
+}
+
+/*Конец - Заголовок, меню, картинка - Евтушенко*/
+
+
 <<<<<<< Updated upstream
 .nik {
 	border: 4px solid green
 =======
 
-
-.hello {
-	border: 5px solid yellow;
-	font-size: 20px;
-	color: red;
-	width: 250px;
-	height: 150px;
-	display: block;
-	text-align: center;
-	padding-top: 7%;
->>>>>>> Stashed changes
-}
