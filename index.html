@@ -57,6 +57,139 @@
 
 <!-- конец - Заголовок, изображение - Евтушенко  -->
 
+      <!-- Заголовок для слайдера -->
+      <div class="Wrap">
+      <div class="color"></div>
+      <h2 id="gradient"><span data-text="HomeWorks группы HTML 48">HomeWorks группы HTML 48</span></h2>
+      </div>
+      
+      
+      <!-- Слайдер - Дмитрий Кащавцев -->
+      <div class="slider">
+      <script src="js/jssor.slider-23.1.5.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 0,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 4,
+                $SpacingX: 4,
+                $SpacingY: 4,
+                $Orientation: 2,
+                $Align: 0
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 810);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+    
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:810px;height:300px;overflow:hidden;visibility:hidden;background-color:#000000;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="image/17426030_1373241709409877_1996131535346672880_n.jpg" />
+                <div data-u="thumb">
+                    <img class="i" src="image/thumb-002.jpg" />
+                    <div class="t">Самый Вкусный</div>
+                    <div class="c">Все виды пироженок</div>
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/17951971_1165435326913281_9193977413013752_n.jpg" />
+                <div data-u="thumb">
+                    <img class="i" src="image/thumb-003.jpg" />
+                    <div class="t">Тема с мобильным</div>
+                    <div class="c">Навигацыя в сайте(форма)</div>
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/18033038_1406673552733359_3447081479015474378_n.jpg" />
+                <div data-u="thumb">
+                    <img class="i" src="image/thumb-004.jpg" />
+                    <div class="t">Кондиционер</div>
+                    <div class="c">Флекс верстка</div>
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/539948_1380540108680037_1083896719016346886_n.jpg" />
+                <div data-u="thumb">
+                    <img class="i" src="image/thumb-005.jpg" />
+                    <div class="t">Праздничный сайт</div>
+                    <div class="c">Все для праздников</div>
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9.png" />
+                <div data-u="thumb">
+                    <img class="i" src="image/thumb-006.jpg" />
+                    <div class="t">Онлайн магазин</div>
+                    <div class="c">Магазин нижнего белья</div>
+                </div>
+            </div>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort11" style="position:absolute;right:5px;top:0px;font-family:Arial, Helvetica, sans-serif;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:200px;height:300px;" data-autocenter="2">
+            <!-- Thumbnail Item Skin Begin -->
+            <div data-u="slides" style="cursor: default;">
+                <div data-u="prototype" class="p">
+                    <div data-u="thumbnailtemplate" class="tp"></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora02r" style="top:0px;right:218px;width:55px;height:55px;" data-autocenter="2"></span>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    
+          </div>
+      <!-- Конец - Слайдер - Дмитрий Кащавцев -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
   <!-- by AlexKoQ -->
 
 <div class="nik">
