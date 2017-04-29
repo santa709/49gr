@@ -19,14 +19,17 @@ body{
 
 /*Заголовок, меню, картинка - Евтушенко*/
 
-h1.brand {
-	text-align: center;
-	margin: 0 auto 5px;
+.brand {
+	width: 100%;
+	margin: 0 auto;
+}
+.brandimg {
+   width: 100%;
 }
 
-h1.brand img {
+/*h1.brand img {
 	width: 25%;
-}
+}*/
 
 /*Меню*/
 
